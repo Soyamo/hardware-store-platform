@@ -328,13 +328,6 @@ It also gives me an opportunity to work with:
 - end-to-end full-stack development.
 
 The longer-term goal is to make the core application reusable for individual store clients.
-
-## Interview Summary
-
-A concise explanation of the project:
-
-> I’m building a reusable hardware-store web platform for independent retailers. Customers can browse products and reserve stock online for collection and payment in-store, while staff manage the catalogue and order workflow. I’m using React for the frontend, FastAPI for the backend, and PostgreSQL for persistence. One of the main technical areas is reservation-aware inventory management: when an order is placed, the backend checks available stock inside a transaction, locks the relevant product rows, and updates reserved quantities so concurrent customers cannot reserve the same remaining stock.
-
 ## License
 
 This project is licensed under the MIT License.
